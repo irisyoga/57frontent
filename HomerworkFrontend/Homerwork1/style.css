@@ -1,0 +1,49 @@
+* {
+  font-family: Impact, sans-serif;
+}
+body {
+  background-color: #f7f0f5;
+  text-align: center;
+}
+h1 {
+  
+  color: #a37b73;
+  font-size: 35px;
+}
+
+h3,
+h4 {
+
+  color: #db7f67;
+  font-size: 28px;
+}
+h3 > span {
+  font-size: 35px;
+}
+.bold-underline {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+}
+
+li > span {
+  font-size: 21px;
+  font-style: italic;
+}
+
+li {
+  color: #3f292b;
+}
+
+a {
+  color: #d34f73;
+  font-style: italic;
+}
+.img-priority {
+  width: 220px;
+  height: 280px;
+}

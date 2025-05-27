@@ -1,0 +1,21 @@
+p{
+   color: green; 
+}
+P{
+    color: rgba(230, 66, 11, 0.754);
+}
+p.text-color{
+    color: blue;
+}
+.text-color{
+    color: rgb(0, 255, 21);
+}
+h1.text-color{
+    background-color: antiquewhite;
+}
+.surikat{
+    width: 100%;
+}
+.local-surikat{
+    width: 500px;
+}
