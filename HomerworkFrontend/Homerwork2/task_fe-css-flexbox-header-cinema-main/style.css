@@ -1,18 +1,32 @@
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: rgb(240, 235, 235);
+* {
+   font-family: Arial, sans-serif;
+   color: azure;
+}
+.container-wrap {
+  width: 100%;
+  height: 20vh;
+  background-image: url("imagebanner.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+ 
+ 
   
 }
-.banner {
-  position: relative;
-  width: 100%;
-  height: 100vh;
+
+
+.item {
   
-  display:flex;
+
+}
+
+.logo {
+ 
+}
+placeholder {
+  border-radius: 300px;
+
 }
 main {
   width: 400vh;
 }
-
