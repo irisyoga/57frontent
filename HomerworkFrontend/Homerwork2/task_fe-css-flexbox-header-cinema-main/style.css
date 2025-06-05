@@ -1,6 +1,6 @@
 * {
-   font-family: Arial, sans-serif;
-   color: azure;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
 }
 .container-wrap {
   width: 100%;
@@ -9,24 +9,31 @@
   background-size: cover;
   background-position: center;
   display: flex;
- 
- 
-  
+  justify-content: center;
+  gap: 250px;
+  align-items: flex-end;
 }
-
 
 .item {
-  
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  color: #c4caca;
+  font-size: 25px;
 }
 
-.logo {
- 
+input {
+  width: 190px;
+  height: 25px;
+  border-radius: 8px;
+  border: none;
+  padding: 7px;
+  background-color: #d3d3d3;
+  color: #717d80;
+  font-size: 19px;
 }
-placeholder {
-  border-radius: 300px;
 
-}
 main {
   width: 400vh;
 }
