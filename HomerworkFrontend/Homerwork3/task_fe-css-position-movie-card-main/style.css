@@ -1,46 +1,20 @@
 * {
-  font-family: Arial, sans-serif;
-  color: #ffffff;
+  font-family: "Lucida Sans", sans-serif;
+  box-sizing: border-box;
 }
 
- body{
-    margin: 0;
-  }
-  
-.container-wrap {
-  width: 100%;
-  height: 20vh;
-  background-image: url("imagebanner.jpeg");
-  background-size: cover;
-  background-position: center;
+h1 {
+  margin: 0;
+}
+
+header {
+  background-color: rgb(52, 52, 105);
+  color: white;
+  padding: 50px;
+  position: sticky;
+  top: 0px;
   display: flex;
   justify-content: center;
-  gap: 250px;
-  align-items: flex-end;
-}
-
-.item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 15px;
-  color: #c4caca;
-  font-size: 25px;
-}
-
-input {
-  width: 190px;
-  height: 25px;
-  border-radius: 8px;
-  border: none;
-  padding: 7px;
-  background-color: #d3d3d3;
-  color: #717d80;
-  font-size: 19px;
-}
-
-main {
-  width: 400vh;
 }
 main {
   padding: 50px 70px;
@@ -68,9 +42,7 @@ main {
 .movie2 {
   background-image: url("movie2.webp");
 }
-.movie3 {
-  background-image: url(C:\Users\user1\Desktop\cohort_57_1_JAVA\src\Frontentlesson\Frontend\HomerworkFrontend\Homerwork2\task_fe-css-flexbox-header-cinema-main\ooHhjmAWFJ4CTdWpR2j4I5kQ9QcXBA8xaEnEEYlZdygGg7ldBMakqdmR1edeA9s9C2wIPtVEXfOfV1iNzUoKQvnUo4p3SFvLB13W50Mw_iCFD6NRABhdey9UnwDTAzcYMLGTMjLkl4f79.webp);
-}
+
 .tiket {
   width: 180px;
   height: 70px;
@@ -109,4 +81,3 @@ main {
 .color-square2 {
   background-color: rgb(255, 0, 0);
 }
-
