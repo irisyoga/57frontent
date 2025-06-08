@@ -70,7 +70,11 @@ main {
   background-image: url("movie2.webp");
 }
 .movie3 {
-  background-image: url("move3.webp");
+  background-image: url("movie3.webp");
+  background-size: cover;
+}
+.movie4 {
+  background-image: url("movie4.webp");
   background-size: cover;
 }
 .tiket {
