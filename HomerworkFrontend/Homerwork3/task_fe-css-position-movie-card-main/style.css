@@ -42,6 +42,14 @@ main {
 .movie2 {
   background-image: url("movie2.webp");
 }
+.movie3 {
+  background-image: url("../../Homerwork2/task_fe-css-flexbox-header-cinema-main/movie3.webp");
+  background-size: cover;
+}
+.movie4 {
+  background-image: url("../../Homerwork2/task_fe-css-flexbox-header-cinema-main/movie4.webp");
+  background-size: cover;
+}
 
 .tiket {
   width: 180px;
