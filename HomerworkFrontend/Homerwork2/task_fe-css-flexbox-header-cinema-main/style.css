@@ -62,6 +62,7 @@ main {
   display: flex;
 }
 
+
 .movie1 {
   background-image: url("movie1.webp");
 }
@@ -69,7 +70,8 @@ main {
   background-image: url("movie2.webp");
 }
 .movie3 {
-  background-image: url(C:\Users\user1\Desktop\cohort_57_1_JAVA\src\Frontentlesson\Frontend\HomerworkFrontend\Homerwork2\task_fe-css-flexbox-header-cinema-main\ooHhjmAWFJ4CTdWpR2j4I5kQ9QcXBA8xaEnEEYlZdygGg7ldBMakqdmR1edeA9s9C2wIPtVEXfOfV1iNzUoKQvnUo4p3SFvLB13W50Mw_iCFD6NRABhdey9UnwDTAzcYMLGTMjLkl4f79.webp);
+  background-image: url("move3.webp");
+  background-size: cover;
 }
 .tiket {
   width: 180px;
