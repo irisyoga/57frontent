@@ -10,6 +10,7 @@ h1 {
 }
 
 header {
+  height: 80px;
   background-color: rgb(52, 52, 105);
   color: white;
   padding: 50px;
