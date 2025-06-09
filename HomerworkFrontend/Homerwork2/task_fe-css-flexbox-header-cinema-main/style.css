@@ -34,7 +34,10 @@ nav > div {
   align-items: center;
   gap: 5px;
 }
+nav > div > img {
+  opacity: 0.8;
 
+}
 input {
   width: 250px;
   height: 40px;
