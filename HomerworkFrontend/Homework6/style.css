@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  background-color: whitesmoke;
+}
+header {
+  height: 80px;
+  background-color: rgb(52, 52, 105);
+  color: white;
+  padding: 50px;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+span {
+  position: center;
+  font-size: 30px;
+}
+.gallery {
+
+  background-color: bisque;
+  padding: 20px;
+  margin: 20px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-grid-minmax {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  /* высота строк в grid */
+  grid-auto-rows: 250px;
+  gap: 10px;
+}
+
+.grid-item-adapt {
+  display: flex;
+  background-color: #f8f8f8;
+
+  outline: 1px solid black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.grid-item-pic {
+  width: 100%;
+  height: auto;
+  
+  background-size: cover;
+  color: white;
+  display: flex;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.pic1 {
+  background-image: url(https://wink.ru/blog/wp-content/uploads/2023/03/315371.jpg);
+  
+}
+.pic2 {
+  background-image: url(https://wink.ru/blog/wp-content/uploads/2023/03/7de477d3ca50f909f7ee5c171d43078b.jpeg);
+}
+.pic3 {
+  background-image: url(https://wink.ru/blog/wp-content/uploads/2023/03/3840x.jpeg);
+}
+.pic4 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTapu6a1OAPRQ-BOjdn-dvFBy-c30CENM13Bw_bzkQtuhTGW_gv_7vW9fleo2HxEaOf7Vb85S_uClDelTwVUolXZjD1-MNfnuHP5EYuyUon);
+}
+.pic5 {
+  background-image: url(https://wink.ru/blog/wp-content/uploads/2023/03/filmz.ru_f_172847.jpg);
+}
+.pic6 {
+  background-image: url(https://wink.ru/blog/wp-content/uploads/2023/03/1920x-7-1.jpeg);
+}
+.pic7 {
+  background-image: url(https://wink.ru/blog/wp-content/uploads/2023/03/tiotushka-edna.jpeg);
+}
