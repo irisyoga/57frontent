@@ -72,7 +72,7 @@ main {
   transition: 0.5s;
   color: white;
   transform: scale(1.8);
-  z-index: 1;
+  z-index: 0;
   cursor: pointer;
 }
 .character-card:hover span {
