@@ -4,30 +4,69 @@
 }
 body {
   font-family: "Trebuchet MS", sans-serif;
+  font-size: 20px;
   background-color: whitesmoke;
-}
-
-header {
-  height: 80px;
-  background-color: rgb(52, 52, 105);
-  color: white;
-  padding: 50px;
-  position: sticky;
-  top: 0px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header {
+  background-color: rgb(52, 52, 105);
+  padding: 10px 50px;
+  position: sticky;
+  top: 0;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
 }
 
-h1 {
-  font-size: 30px;
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: white;
+  font-size: 24px;
+}
+
+.header-content i {
+  font-size: 28px;
+}
+header {
+  background-color: rgb(52, 52, 105);
+  padding: 10px 50px;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+header h1 {
+  color: white;
+  font-size: 24px;
+  margin: 0;
+}
+
+.header-icon {
+  position: absolute;
+  left: 30px;
+  font-size: 28px;
+  color: white;
 }
 
 main {
   background-color: bisque;
-  padding: 20px;
+  padding: 100px;
+  align-items: start;
+  flex: 1;
 }
 
 .gallery {
@@ -37,8 +76,6 @@ main {
   grid-auto-rows: 250px;
   gap: 50px;
 }
-
-
 
 .character-card {
   position: relative;
@@ -56,7 +93,7 @@ main {
   transition: 0.5s;
   z-index: 0;
 }
- span {
+span {
   position: absolute;
   color: white;
   text-shadow: 1px 1px 3px black;
@@ -66,22 +103,21 @@ main {
   transition: color 0.3s ease;
   z-index: 1;
 }
- .character-card:hover {
+.character-card:hover {
   background-size: 200%;
   background-position: center;
   transition: 0.5s;
   color: white;
   transform: scale(1.8);
-  z-index: 0;
+  z-index: 1;
   cursor: pointer;
 }
 .character-card:hover span {
   color: yellow;
 }
 
-
 .card1 {
- background-image: url(https://wink.ru/blog/wp-content/uploads/2023/03/315371.jpg);
+  background-image: url(https://wink.ru/blog/wp-content/uploads/2023/03/315371.jpg);
 }
 .card2 {
   background-image: url(https://wink.ru/blog/wp-content/uploads/2023/03/7de477d3ca50f909f7ee5c171d43078b.jpeg);
@@ -103,10 +139,59 @@ main {
 }
 
 footer {
-  height: 50px;
+  position: relative;
+  height: 80px;
   background-color: rgb(180, 178, 178);
   color: white;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
+
+.footer-content {
+    display: flex;
+  align-items: center;
+  gap: 350px;
+
+}
+
+footer nav {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+footer nav a {
+  color: white;
+}
+
+footer {
+  background-color: rgb(180, 178, 178);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-icons a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+footer h2 {
+  color: white;
+  font-size: 24px;
 }
