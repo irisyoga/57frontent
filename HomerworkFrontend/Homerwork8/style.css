@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.photo {
+  width: 1200px;
+  height: 450px;
+  margin: 20px;
+  background: #333;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+.photo1 {
+  background-image: url("Tourismus & Hotels – Berlin.de_files/shutterstock_1549382906.jpg");
+}
+span {
+  position: absolute;
+  bottom: 54px;
+  padding-left: 110px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  color: #fff;
+  text-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.4);
+  z-index: 2;
+}
