@@ -1,0 +1,49 @@
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+header {
+  width: 100%;
+  height: 68px;
+  background-color: black;
+  position: sticky;
+  top: 0;
+}
+main {
+  width: 100%;
+  min-height: 650px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  width: 1200px;
+  height: 450px;
+  background-image: url("schiffstour-regierungsviertel_.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.container-grid {
+  width: 980px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 10px;
+}
+.title {
+    margin-top: 70px;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item > img {
+  width: 313px;
+  height: 235px;
+}
