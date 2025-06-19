@@ -11,13 +11,84 @@ header {
   height: 68px;
   background-color: #ffffff;
   display: flex;
-
-  justify-content: center;
-  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  display: flex;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0);
 }
-.head1 {
+.head1-group {
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  gap: 5px;
+}
+.logo {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: #000;
+}
+.subtitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  color: #000;
+}
+.right-group {
+  display: flex;
+  align-items: center;
+  gap: auto;
+  padding-right: 25px;
+}
+.head2-group {
+  display: flex;
+  gap: 36px;
+  margin-right: 36px;
+  flex-wrap: wrap;
 }
 .item {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  color: #000;
+  text-decoration-line: none;
+}
+.item a.descr {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  color: #000;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+.item a.descr:hover {
+  text-decoration: underline;
+}
+
+.head3-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-right: 25px;
+  gap: 18px;
+}
+
+.fa-universal-access,
+.fa-magnifying-glass,
+.fa-bars {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 100%;
+  text-align: center;
+  color: #000;
+}
+.item-head3 {
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+  color: #000;
 }
 
 .photo {
@@ -68,17 +139,15 @@ main {
   font-size: 22px;
   line-height: 118%;
   color: #000;
-
 }
 .card-section {
   width: 100%;
   max-width: 1200px;
   margin-bottom: 0; /* отступ между секциями */
-  padding: 0 ;
+  padding: 0;
   justify-content: center;
   position: relative;
   margin: 43px;
-  
 }
 .card-title {
   font-size: 32px;
@@ -150,7 +219,6 @@ main {
   line-height: 120%;
   color: #454545;
   margin-top: 0;
-  
 }
 .card-text-title {
   font-weight: 700;
