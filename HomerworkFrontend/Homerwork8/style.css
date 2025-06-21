@@ -298,7 +298,8 @@ a:hover {
 .column {
   display: flex;
   flex-direction: column;
-  margin-bottom: 49px;
+  margin-bottom: 40px;
+ 
   gap: 8px;
 }
 footer,
@@ -306,6 +307,7 @@ footer a,
 footer h4,
 footer p {
   color: #fff;
+  
 }
 .footer-container-bottom {
   position: relative;
@@ -332,7 +334,7 @@ footer p {
 .end {
   position: absolute;
   bottom: 86px;
-  left: 125px;
+  left: 114px;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
