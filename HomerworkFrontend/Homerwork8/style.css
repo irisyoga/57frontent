@@ -288,6 +288,7 @@ a:hover {
   line-height: 150%;
   color: #fff;
 }
+
 .grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -299,7 +300,6 @@ a:hover {
   display: flex;
   flex-direction: column;
   margin-bottom: 40px;
- 
   gap: 8px;
 }
 footer,
@@ -307,9 +307,8 @@ footer a,
 footer h4,
 footer p {
   color: #fff;
-  
 }
-.footer-container-bottom {
+.bottom {
   position: relative;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   width: 100%;
@@ -321,7 +320,11 @@ footer p {
   justify-content: center;
   align-items: center;
   z-index: 0;
+   display: flex;
+ 
 }
+
+
 .logo_berlin_negativ {
   position: absolute;
   top: 17px;
@@ -334,8 +337,9 @@ footer p {
 .end {
   position: absolute;
   bottom: 86px;
-  left: 114px;
+  left: 130px;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
 }
+
