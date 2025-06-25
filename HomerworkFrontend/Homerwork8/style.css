@@ -193,9 +193,7 @@ main {
   background-repeat: no-repeat;
   position: relative;
 }
-.image {
-  /* 4:3 соотношение */
-}
+
 .image1 {
   background-image: url("Tourismus-Hotels–Berlin.de_files/selfie-brandenburger-Tor-sehenswürdigkeiten_dpa.jpg");
 }
@@ -214,6 +212,35 @@ main {
 .image6 {
   background-image: url("Tourismus-Hotels–Berlin.de_files/siegessäule-laternen-wetter_dpa.jpg");
 }
+.image7 {
+  background-image: url("Tourismus-Hotels–Berlin.de_files/schiffstour-regierungsviertel_.jpg");
+}
+.image8 {
+  background-image: url("Tourismus-Hotels–Berlin.de_files/Hop-on-Hop-off-AdobeStock_208911037_1000.jpeg");
+}
+.image9 {
+  background-image: url("Tourismus-Hotels–Berlin.de_files/Stadtführung_dpa.jpg");
+}
+.image10 {
+  background-image: url("Tourismus-Hotels–Berlin.de_files/Teufelsberg6_dpa.jpg");
+}
+.image11 {
+  background-image: url("Tourismus-Hotels–Berlin.de_files/40864472.jpg");
+}
+.image12 {
+  background-image: url("Tourismus-Hotels–Berlin.de_files/spreepark_dpa.jpg");
+}
+.image13 {
+  background-image: url("Tourismus-Hotels–Berlin.de_files/zoo-berlin-nilpferd_dpa.jpg");
+}
+.image14 {
+  background-image: url("Tourismus-Hotels–Berlin.de_files/mauerpark_prenzlauer_berg_berlin.jpg");
+}
+.image15 {
+  background-image: url("Tourismus-Hotels–Berlin.de_files/berliner-dom-paar_dpa.jpg");
+}
+  
+
 .image-block {
   width: 36px;
   height: 36px;
@@ -261,7 +288,7 @@ main {
   width: 100%;
   height: 374px;
   background: #f5f5f5;
-  padding: 25px 25px 25px px;
+  padding: 10px 25px 25px 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -277,9 +304,10 @@ main {
   display: flex;
   align-items: center;
   gap: 15px;
-  padding: 10px;
+  
 }
 a p {
+  
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -310,6 +338,7 @@ a:hover {
 }
 
 .grid {
+  margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-auto-rows: auto;
@@ -331,15 +360,13 @@ footer p {
 .bottom {
   position: relative;
   background: #545454;
-
   width: 100%;
   height: 348px;
 }
 
 .logo_berlin_negativ {
   position: absolute;
-  top: 17px;
-  left: 24px;
+  left: 0;
   z-index: 2;
   width: 120px;
   height: 40px;
@@ -347,8 +374,8 @@ footer p {
 }
 .end {
   position: absolute;
+  
   bottom: 86px;
-  margin-left: 75px;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -403,6 +430,7 @@ footer {
   .column {
     width: 140px;
     padding: 10px;
+    
   }
 }
 main,
@@ -416,16 +444,17 @@ footer,
 #top p {
   font-size: 16px;
 }
+.square-blosk {
+  margin-right: 25px;
+ 
+}
 .logo_berlin_negativ {
-  margin-bottom: 20p;
   top: 5px;
   left: 10px;
 }
+
 .end {
   position: absolute;
   bottom: 5px;
-  left: 40px;
-  font-weight: 400;
-  line-height: 150%;
-  font-size: 15px;
+  left: 45px; 
 }
