@@ -235,6 +235,7 @@ main {
   background-repeat: no-repeat;
   position: relative;
 }
+
 .image1 {
   background-image: url("Tourismus-Hotels–Berlin.de_files/selfie-brandenburger-Tor-sehenswürdigkeiten_dpa.jpg");
 }
@@ -253,6 +254,34 @@ main {
 .image6 {
   background-image: url("Tourismus-Hotels–Berlin.de_files/siegessäule-laternen-wetter_dpa.jpg");
 }
+.image7 {
+  background-image: url("Tourismus-Hotels–Berlin.de_files/schiffstour-regierungsviertel_.jpg");
+}
+.image8 {
+  background-image: url("Tourismus-Hotels–Berlin.de_files/Hop-on-Hop-off-AdobeStock_208911037_1000.jpeg");
+}
+.image9 {
+  background-image: url("Tourismus-Hotels–Berlin.de_files/Stadtführung_dpa.jpg");
+}
+.image10 {
+  background-image: url("Tourismus-Hotels–Berlin.de_files/Teufelsberg6_dpa.jpg");
+}
+.image11 {
+  background-image: url("Tourismus-Hotels–Berlin.de_files/40864472.jpg");
+}
+.image12 {
+  background-image: url("Tourismus-Hotels–Berlin.de_files/spreepark_dpa.jpg");
+}
+.image13 {
+  background-image: url("Tourismus-Hotels–Berlin.de_files/zoo-berlin-nilpferd_dpa.jpg");
+}
+.image14 {
+  background-image: url("Tourismus-Hotels–Berlin.de_files/mauerpark_prenzlauer_berg_berlin.jpg");
+}
+.image15 {
+  background-image: url("Tourismus-Hotels–Berlin.de_files/berliner-dom-paar_dpa.jpg");
+}
+
 .image-block {
   width: 36px;
   height: 36px;
