@@ -1,28 +1,38 @@
 
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 8px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
 button {
-  background-color: dodgerblue;
-  color: white;
-  border: none;
-  padding: 3px 8px;
-  border-radius: 3px;
+  padding: 8px 12px;
   cursor: pointer;
+}
+
+ul {
+  padding-left: 20px;
 }
 
 li {
-  list-style: none;
-  cursor: pointer;
+  margin-bottom: 6px;
 }
- 
-.done {
-  color: dodgerblue;
-  text-decoration: line-through;
-}
-
-li:hover {
-  color: black;
-  text-decoration: line-through ;
-}  
-
-li::before {
-  content: '✨ ';
+.btn-container {
+  display: flex;
+  margin-bottom: 20px;
 }
