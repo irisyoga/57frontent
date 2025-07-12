@@ -21,3 +21,4 @@ const userFromJson = JSON.parse(userAsJSONString);
 console.log(userFromJson);
 
 //http://mocki.io/fake-json-api
+

@@ -4,9 +4,10 @@
   "isSingleEye": false,
   "numberOfLegs": 2,
   "age": 34,
+  "url": "https://media.gettyimages.com/id/638537418/de/vektor/piraten-insel.jpg",
   "hat": "triangular hat",
   "ship": {
-    "title": "Blacke Pearl",
+    "title": "Blake Pearl",
     "numberOfCanons": 30
   },
   "weapons": ["pistole", "saber"]
