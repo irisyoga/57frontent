@@ -1,7 +1,8 @@
+
 function fiftyFiftyPromise() {
-  return new Promise((res, reject) => {
+  return new Promise((response, reject) => {
     if (Math.random() < 0.5) {
-      res("Best day of my life");
+      response("Best day of my life");
     } else {
       reject(new Error("Something is off"));
     }

@@ -8,7 +8,7 @@
 // pending ожидающий -
 
 const burgerPromise = new Promise(function (res, rej) {
-  setTimeout(() => {
+  setTimeout(() => {}
     if (getRandom()) {
      res("Burger");
     } else {
@@ -23,8 +23,8 @@ console.log(burgerPromise); // Promise { <pending> }
  }, 6000);
 
 
-// then - можем получить значение без таймера -> fulfilled
-// catch - обработать ошибку - в случае reject -> rejected
+// then тогда- можем получить значение без таймера -> fulfilled
+// catch ловить - обработать ошибку - в случае reject -> rejected
 
 // Раскрыть Promise без сет таймаут
 burgerPromise
