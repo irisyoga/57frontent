@@ -18,7 +18,7 @@ const language = "JavaScript";
 
 let planet = "Earth";
 
-let greeting = "We are from planet " + planet;
+let greeting1 = "We are from planet " + planet;
 
 let planetNumber = 3;
 
@@ -52,7 +52,7 @@ let object; // здесь будет undefined
 // * 5. null - нулевое значение
 // явное указание на отсутствие значения
 
-let user = null;
+let user1 = null;
 
 // * 6. bigint - большое число (не для frontend)
 // для операций с числами больше чем Number.MAX_SAFE_INTEGER;
@@ -140,7 +140,57 @@ const r2 = !true; // false
 const a = 0;
 const b = 30;
 
-const res = (a > 0 && b < 20) || a === 0;
+const res = (a > 0 && b < 20) || a === 0; 
+
+
+
+const age = 17;
+// 1) доступ
+const access = age >= 18 ? "Доступ разрешён" : "Доступ запрещён";
+console.log(access);   // → Доступ запрещён
+
+const number = 5;
+// 2) чётное / нечётное
+const type = number % 2 === 0 ? "Чётное" : "Нечётное";
+console.log(type);     // → Нечётное
+
+
+const user = {
+  name: "Lena",
+  isLoggedIn: false
+};
+// 3) приветствие
+const greeting = user.isLoggedIn ? `Привет, ${user.name}` : "Гость";
+console.log(greeting); // → Гость
+
+//скомбинировать в одну функцию
+
+/**
+ * Проверяет возраст, чётность числа и логин пользователя.
+ *
+ * @param {number} age                – возраст для проверки доступа
+ * @param {number} number             – число для проверки чётности
+ * @param {{ name: string,
+ *           isLoggedIn: boolean }} user – объект пользователя
+ *
+ */
+function checkAll(age, number, user) {
+  return {
+    access:   age >= 18 ? "Доступ разрешён" : "Доступ запрещён",
+    type2:     number % 2 === 0 ? "Чётное" : "Нечётное",
+    greeting2: user.isLoggedIn ? `Привет, ${user.name}` : "Гость"
+  };
+}
+
+/* ----- пример использования ----- */
+const result = checkAll(
+  17,                         // age
+  5,                          // number
+  {name: "Lera", isLoggedIn: false } //user
+);
+
+console.log(result);
+
 
 
 
