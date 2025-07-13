@@ -1,14 +1,13 @@
-[
-  {
-    "name": "join",
-    "age": 18,
-    "isStudent": true,
-    "address": {
-      "PLZ": 10106,
-      "street": "123 Main St",
-      "house": 12
-    },
-    "kids": ["John", "Jane"]
-  }
-]
-
+{
+  "name": "Join",
+  "age": 18,
+  "isStudent": true,
+  "address": {
+    "PLZ": 10106,
+    "street": "123 Main St",
+    "house": 12,
+    "ip": "123-123.123",
+    "avatar": "http://asdasd.com/asdasd.jpeg"
+  },
+  "kids": ["John", "Jane"]
+}

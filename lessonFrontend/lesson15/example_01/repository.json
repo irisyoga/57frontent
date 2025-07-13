@@ -1,6 +1,5 @@
-
 {
-"name": "home",
-"data": 30,
-"isHomework": false
+  "name": "home",
+  "data": 30,
+  "isHomework": false
 }

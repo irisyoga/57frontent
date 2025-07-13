@@ -1,4 +1,3 @@
-
 //JSON
 //JavaScript Object Notation
 //JSON is a lightweight data interchange format that is easy for humans to read and write, and easy for machines to parse and generate.
@@ -7,9 +6,11 @@
 //JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C family of languages, which includes C, C++, C#, Java, JavaScript, Perl, Python, and many others.
 
 const user = {
-    name: "join",
-    email: "john@gmail.com",
-    age: 18,
+  name: "Join",
+  email: "john@gmail.com",
+  age: 18,
+  ip: "123-123.123",
+  avatar: "http://asdasd.com/asdasd.jpeg",
 };
 
 //основной формат передачи и хранения информации - это JSON
@@ -21,4 +22,3 @@ const userFromJson = JSON.parse(userAsJSONString);
 console.log(userFromJson);
 
 //http://mocki.io/fake-json-api
-
