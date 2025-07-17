@@ -1,0 +1,14 @@
+
+{
+    "title": "Meditations",
+    "author": "Mark Aurelius",
+    "year": "1978",
+    "currency": "EUR",
+    "price": 30,
+    "isBestseller": true,
+    "tags": [
+        "philosophy",
+        "roman",
+        "psychology"
+    ]
+}
