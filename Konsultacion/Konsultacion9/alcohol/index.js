@@ -1,19 +1,19 @@
 
-function getRandomCoctail(){
+function getRandomCocktail(){
     fetch('https://www.thecocktaildb.com/api/json/v1/1/random.php')
      .then( response => response.json())
      .then( data => { 
-        const coctail = data.drinks[0];
-        const coctailName = coctail.strDrink;
-        const coctailImage = coctail.strDrinkThumb;
-        const coctailInstructions = coctail.strInstructions;
+        const cocktail = data.drinks[0];
+        const cocktailName = cocktail.strDrink;
+        const cocktailImage = cocktail.strDrinkThumb;
+        const cocktailInstructions = cocktail.strInstructionsDE;
 
-        document.getElementById("coctail-image").src = coctailImage;
-        document.getElementById("coctail-description").textContent = `Название: ${coctailName}. Описание: ${coctailInstructions}`;
+        document.getElementById("cocktail-image").src = cocktailImage;
+        document.getElementById("cocktail-description").textContent = `Название: ${cocktailName}. Описание: ${cocktailInstructions}`;
 })
 .catch(error =>{
     console.log("Ошибка при загрузке коктейля", error);
-    document.getElementById("coctail-description").textContent = "Не удалось загрузить коктейль";
+    document.getElementById("cocktail-description").textContent = "Не  удалось загрузить коктейль";
 })
 }
-// getRandomCoctail();
+// getRandomCocktail();

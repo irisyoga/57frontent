@@ -10,7 +10,7 @@ body {
             align-items: center;
         }
 
-        #coctail-container {
+        #cocktail-container {
             width: 350px;
             text-align: center;
             background-color: #fff;
@@ -34,7 +34,7 @@ body {
             margin-bottom: 20px;
         }
 
-        #coctail-description {
+        #cocktail-description {
             min-height: 100px;
             color: #555;
             margin-bottom: 20px;
