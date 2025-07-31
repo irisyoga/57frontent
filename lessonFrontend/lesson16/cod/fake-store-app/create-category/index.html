@@ -1,20 +1,21 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Create category</title>
     <script src="../js/create-category.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="../css/create-category.css">
   </head>
   <body>
     <h2>Create category</h2>
+    
     <form id="add-category-form">
       <label for="name">Name</label>
-      <input type="text" id="name" placeholder="Iryna" name="name" />
+      <input type="text" id="name" placeholder="Name" name="name" />
 
-      <label for="image">Name</label>
+      <label for="image">Image</label>
       <input
         type="text"
         id="image"
@@ -25,5 +26,6 @@
       <button type="reset">Clear inputs</button>
       <button type="submit">Submit</button>
     </form>
+    <a href="/">Back to homepage</a>
   </body>
 </html>
